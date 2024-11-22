@@ -10,4 +10,6 @@ const sheet = workbook.Sheets[sheetName];
 // Convert to JSON
 const data = XLSX.utils.sheet_to_json(sheet);
 
-console.log(data);
+data.forEach((row) => {
+  console.log(row.Name + " " + row.Address + "\n");
+});
