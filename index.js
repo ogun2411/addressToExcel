@@ -1,4 +1,4 @@
-import puppeteer from "puppeteer";
+const puppeteer = require("puppeteer");
 
 const XLSX = require("xlsx");
 
@@ -15,7 +15,16 @@ const data = XLSX.utils.sheet_to_json(sheet);
 data.forEach((row) => {
   console.log(row.Name + " " + row.Address + "\n");
   lonLat = getLongLat(JSON.stringify(row.Address));
+  row.Latitude = lonlat[0];
+  row.Longitude = lonlat[1];
+  console.log(row);
 });
+
+sheet = XLSX.utils.json_to_sheet(data);
+
+workbook.Sheets[sheetName] = sheet;
+
+XLSX.writeFile(wb, "SolarApi Locations.xlsx");
 
 // retreives longitude and latitude
 async function getLongLat(address) {
@@ -49,5 +58,9 @@ async function getLongLat(address) {
     longitude,
   );
 
+  let direction = [lattitude, longitude];
+
   await browser.close();
+
+  return direction;
 }
