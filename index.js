@@ -7,24 +7,24 @@ const workbook = XLSX.readFile("SolarApiLocations.xlsx");
 
 //access the first sheet
 const sheetName = workbook.SheetNames[0];
-const sheet = workbook.Sheets[sheetName];
+sheet = workbook.Sheets[sheetName];
 
 // Convert to JSON
 const data = XLSX.utils.sheet_to_json(sheet);
 
 data.forEach((row) => {
-  console.log(row.Name + " " + row.Address + "\n");
+  //  console.log(row.Name + " " + row.Address + "\n");
   lonLat = getLongLat(JSON.stringify(row.Address));
-  row.Latitude = lonlat[0];
-  row.Longitude = lonlat[1];
-  console.log(row);
+  row.Latitude = lonLat[0];
+  row.Longitude = lonLat[1];
+  //console.log(row);
 });
-
+process.exit();
 sheet = XLSX.utils.json_to_sheet(data);
 
 workbook.Sheets[sheetName] = sheet;
 
-XLSX.writeFile(wb, "SolarApi Locations.xlsx");
+//XLSX.writeFile(wb, "SolarApi Locations.xlsx");
 
 // retreives longitude and latitude
 async function getLongLat(address) {
@@ -50,6 +50,10 @@ async function getLongLat(address) {
   // Record the values
   latitude = await page.$eval(".lat", (input) => input.value);
   longitude = await page.$eval(".lng", (input) => input.value);
+
+  // transform string to float
+  lattitude = parseFloat(latitude);
+  longitude = parseFloat(longitude);
 
   // Print the Longitude and Latitude.
   console.log(
