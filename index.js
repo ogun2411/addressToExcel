@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 const XLSX = require("xlsx");
 
 // Load excel file with addresses
-const workbook = XLSX.readFile("SolarApi Locations.xlsx");
+const workbook = XLSX.readFile("SolarApiLocations.xlsx");
 
 //access the first sheet
 const sheetName = workbook.SheetNames[0];
