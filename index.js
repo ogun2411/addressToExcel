@@ -1,70 +1,111 @@
-const puppeteer = require("puppeteer");
+const { chromium } = require("playwright");
 
 const XLSX = require("xlsx");
 
-// Load excel file with addresses
-const workbook = XLSX.readFile("SolarApiLocations.xlsx");
+async function main() {
+  // Load excel file with addresses
+  const workbook = XLSX.readFile("SolarApiLocations.xlsx");
 
-//access the first sheet
-const sheetName = workbook.SheetNames[0];
-sheet = workbook.Sheets[sheetName];
+  //access the first sheet
+  const sheetName = workbook.SheetNames[0];
+  sheet = workbook.Sheets[sheetName];
 
-// Convert to JSON
-const data = XLSX.utils.sheet_to_json(sheet);
+  // Convert to JSON
+  const data = XLSX.utils.sheet_to_json(sheet);
 
-data.forEach((row) => {
-  //  console.log(row.Name + " " + row.Address + "\n");
-  lonLat = getLongLat(JSON.stringify(row.Address));
-  row.Latitude = lonLat[0];
-  row.Longitude = lonLat[1];
-  //console.log(row);
-});
-process.exit();
-sheet = XLSX.utils.json_to_sheet(data);
+  for (const row of data) {
+    try {
+      console.log(`Processing address: ${row.Address}`);
 
-workbook.Sheets[sheetName] = sheet;
+      // Get longitude and latitude
+      const lonLat = await getLongLat(row.Address);
 
-//XLSX.writeFile(wb, "SolarApi Locations.xlsx");
+      // Add them to the row
+      row.Latitude = lonLat[0];
+      row.Longitude = lonLat[1];
+
+      console.log(`Processed row:`, row);
+      process.exit();
+    } catch (error) {
+      console.error(
+        `Error processing row with address "${row.Address}":`,
+        error,
+      );
+      process.exit();
+    }
+  }
+
+  sheet = XLSX.utils.json_to_sheet(data);
+
+  workbook.Sheets[sheetName] = sheet;
+
+  XLSX.writeFile(wb, "SolarApi Locations.xlsx");
+}
 
 // retreives longitude and latitude
 async function getLongLat(address) {
   // Launch the browser and open a new blank page
-  const browser = await puppeteer.launch();
+  const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage();
 
   // Navigate the page to a URL.
-  await page.goto("https://www.latlong.net/convert-address-to-lat-long.html");
+  await page.goto("https://www.itilog.com/");
 
   // Set screen size.
-  await page.setViewport({ width: 1080, height: 1024 });
+  await page.setViewportSize({ width: 1080, height: 1024 });
+
+  // Clear the input field for address
+  await page.locator("#address").clear();
+
+  // Wait for the input field to be cleared
+  await page.waitForSelector("#address");
 
   // Type into address box.
-  await page.locator(".width70").fill(address);
+  await page.locator("#address").fill(address);
 
-  // Wait and click on find button.
-  await page.locator(".btnfind").click();
+  // Wait then click on Find GPS Coordinates button.
+  await page.waitForSelector("#address");
+  await page.locator("#address_to_map").click();
+
+  // Wait for the latitude and longitude fields to have non-empty values
+  await page.waitForFunction(() => {
+    const latitudeField = document.querySelector("#latitude");
+    const longitudeField = document.querySelector("#longitude");
+    return (
+      latitudeField?.value.trim() !== "" && longitudeField?.value.trim() !== ""
+    );
+  });
 
   // wait for the .lat and .lng field to load
-  await page.waitForSelector(".lat");
+  // await page.waitForSelector("#latitude", { timeout: 60000 });
+  //await page.waitForSelector("#longitude", { timeout: 60000 });
 
   // Record the values
-  latitude = await page.$eval(".lat", (input) => input.value);
-  longitude = await page.$eval(".lng", (input) => input.value);
+  const latitude = await page
+    .locator("#latitude")
+    .inputValue({ timeout: 60000 });
+  const longitude = await page
+    .locator("#longitude")
+    .inputValue({ timeout: 60000 });
 
   // transform string to float
-  lattitude = parseFloat(latitude);
-  longitude = parseFloat(longitude);
+  const lat = parseFloat(latitude);
+  const lng = parseFloat(longitude);
 
   // Print the Longitude and Latitude.
-  console.log(
-    "The Latitude is $f and the latitude is %f\n.",
-    latitude,
-    longitude,
-  );
+  console.log({ latitude: latitude, longitude: longitude });
 
-  let direction = [lattitude, longitude];
+  const direction = [lat, lng];
 
   await browser.close();
 
   return direction;
+}
+
+// Check if this is the main module
+if (require.main === module) {
+  main().catch((error) => {
+    console.error("An error occurred:", error);
+    process.exit(1);
+  });
 }
