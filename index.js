@@ -25,7 +25,6 @@ async function main() {
       row.Longitude = lonLat[1];
 
       console.log(`Processed row:`, row);
-      break;
     } catch (error) {
       console.error(
         `Error processing row with address "${row.Address}":`,
