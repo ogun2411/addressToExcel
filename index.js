@@ -25,7 +25,7 @@ async function main() {
       row.Longitude = lonLat[1];
 
       console.log(`Processed row:`, row);
-      process.exit();
+      break;
     } catch (error) {
       console.error(
         `Error processing row with address "${row.Address}":`,
@@ -39,7 +39,9 @@ async function main() {
 
   workbook.Sheets[sheetName] = sheet;
 
-  XLSX.writeFile(wb, "SolarApi Locations.xlsx");
+  XLSX.writeFile(workbook, "SolarApiLocations.xlsx");
+
+  console.log("Finished Translating Addresses to GPS Coordinates");
 }
 
 // retreives longitude and latitude
