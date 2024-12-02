@@ -84,7 +84,7 @@ def process_coordinates_with_solar_api(df, api_key, output_dir, output_excel):
     print(f"Updated data saved to {output_excel}")
 
 # Example usage with the provided API URL
-api_key = "AIzaSyD4zRtuXdscMigE7PVeKXsdDCcY9UBjeJw"  # Replace with your actual API key
+api_key = ""  # Replace with your actual API key
 output_directory = "solar_api_responses"  # Directory to save the JSON responses
 output_excel = "updated_solar_api_data.xlsx"  # File to save updated data
 
