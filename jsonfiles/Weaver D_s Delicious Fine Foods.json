@@ -1,0 +1,4732 @@
+{
+  "name": "buildings/ChIJ1z1ipMRs9ogRNaXkvYbsLzw",
+  "center": {
+    "latitude": 33.9585302,
+    "longitude": -83.3673147
+  },
+  "imageryDate": {
+    "year": 2015,
+    "month": 5,
+    "day": 10
+  },
+  "postalCode": "30601",
+  "administrativeArea": "GA",
+  "statisticalArea": "13059000100",
+  "regionCode": "US",
+  "solarPotential": {
+    "maxArrayPanelsCount": 59,
+    "maxArrayAreaMeters2": 115.84974,
+    "maxSunshineHoursPerYear": 1551.9171,
+    "carbonOffsetFactorKgPerMwh": 662.73566,
+    "wholeRoofStats": {
+      "areaMeters2": 147.70746,
+      "sunshineQuantiles": [
+        446.25455,
+        1255.7543,
+        1334.7174,
+        1361.6376,
+        1390.2261,
+        1407.5343,
+        1423.0259,
+        1515.7054,
+        1525.7845,
+        1531.8296,
+        1657.1656
+      ],
+      "groundAreaMeters2": 138.7
+    },
+    "roofSegmentStats": [
+      {
+        "pitchDegrees": 19.493237,
+        "azimuthDegrees": 85.982414,
+        "stats": {
+          "areaMeters2": 91.74897,
+          "sunshineQuantiles": [
+            446.25455,
+            1153.8113,
+            1321.5231,
+            1341.5096,
+            1358.458,
+            1376.4232,
+            1394.3107,
+            1404.7813,
+            1413.2935,
+            1424.9958,
+            1656.1696
+          ],
+          "groundAreaMeters2": 86.49
+        },
+        "center": {
+          "latitude": 33.9585323,
+          "longitude": -83.367295300000009
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 33.9584663,
+            "longitude": -83.36733319999999
+          },
+          "ne": {
+            "latitude": 33.9585939,
+            "longitude": -83.367257299999991
+          }
+        },
+        "planeHeightAtCenterMeters": 191.11823
+      },
+      {
+        "pitchDegrees": 16.91588,
+        "azimuthDegrees": 270.01788,
+        "stats": {
+          "areaMeters2": 48.02803,
+          "sunshineQuantiles": [
+            1011.5702,
+            1372.9606,
+            1515.7017,
+            1521.7773,
+            1524.4368,
+            1526.015,
+            1528.4712,
+            1530.3798,
+            1532.496,
+            1545.5232,
+            1654.8867
+          ],
+          "groundAreaMeters2": 45.95
+        },
+        "center": {
+          "latitude": 33.958534799999995,
+          "longitude": -83.3673527
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 33.9584772,
+            "longitude": -83.3673764
+          },
+          "ne": {
+            "latitude": 33.958588,
+            "longitude": -83.36733009999999
+          }
+        },
+        "planeHeightAtCenterMeters": 191.7673
+      },
+      {
+        "pitchDegrees": 37.874176,
+        "azimuthDegrees": 167.70863,
+        "stats": {
+          "areaMeters2": 7.9304667,
+          "sunshineQuantiles": [
+            1146.5321,
+            1300.7521,
+            1407.845,
+            1489.0237,
+            1511.6915,
+            1530.1575,
+            1543.9977,
+            1557.9573,
+            1572.4192,
+            1591.8746,
+            1657.1656
+          ],
+          "groundAreaMeters2": 6.26
+        },
+        "center": {
+          "latitude": 33.9584718,
+          "longitude": -83.3673045
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 33.9584644,
+            "longitude": -83.36733550000001
+          },
+          "ne": {
+            "latitude": 33.958481,
+            "longitude": -83.36726809999999
+          }
+        },
+        "planeHeightAtCenterMeters": 191.22507
+      }
+    ],
+    "solarPanelConfigs": [
+      {
+        "panelsCount": 4,
+        "yearlyEnergyDcKwh": 2466.2551,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 4,
+            "yearlyEnergyDcKwh": 2466.2551,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 5,
+        "yearlyEnergyDcKwh": 3080.421,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 5,
+            "yearlyEnergyDcKwh": 3080.4207,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 6,
+        "yearlyEnergyDcKwh": 3692.9153,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 6,
+            "yearlyEnergyDcKwh": 3692.915,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 7,
+        "yearlyEnergyDcKwh": 4307.9927,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 7,
+            "yearlyEnergyDcKwh": 4307.992,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 8,
+        "yearlyEnergyDcKwh": 4919.7036,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 8,
+            "yearlyEnergyDcKwh": 4919.703,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 9,
+        "yearlyEnergyDcKwh": 5531.394,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 9,
+            "yearlyEnergyDcKwh": 5531.3936,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 10,
+        "yearlyEnergyDcKwh": 6142.7847,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 10,
+            "yearlyEnergyDcKwh": 6142.784,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 11,
+        "yearlyEnergyDcKwh": 6753.8706,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 11,
+            "yearlyEnergyDcKwh": 6753.87,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 12,
+        "yearlyEnergyDcKwh": 7363.4956,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 12,
+            "yearlyEnergyDcKwh": 7363.495,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 13,
+        "yearlyEnergyDcKwh": 7973.1094,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 13,
+            "yearlyEnergyDcKwh": 7973.109,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 14,
+        "yearlyEnergyDcKwh": 8582.304,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 14,
+            "yearlyEnergyDcKwh": 8582.303,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 15,
+        "yearlyEnergyDcKwh": 9190.63,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 15,
+            "yearlyEnergyDcKwh": 9190.629,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 16,
+        "yearlyEnergyDcKwh": 9798.827,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 16,
+            "yearlyEnergyDcKwh": 9798.826,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 17,
+        "yearlyEnergyDcKwh": 10406.725,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 17,
+            "yearlyEnergyDcKwh": 10406.723,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 18,
+        "yearlyEnergyDcKwh": 11013.509,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 11013.507,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 19,
+        "yearlyEnergyDcKwh": 11585.639,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 1,
+            "yearlyEnergyDcKwh": 572.13025,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 11013.507,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 20,
+        "yearlyEnergyDcKwh": 12157.531,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 2,
+            "yearlyEnergyDcKwh": 1144.0231,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 11013.507,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 21,
+        "yearlyEnergyDcKwh": 12727.822,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 3,
+            "yearlyEnergyDcKwh": 1714.3141,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 11013.507,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 22,
+        "yearlyEnergyDcKwh": 13295.147,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 4,
+            "yearlyEnergyDcKwh": 2281.6387,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 11013.507,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 23,
+        "yearlyEnergyDcKwh": 13862.429,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 5,
+            "yearlyEnergyDcKwh": 2848.9207,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 11013.507,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 24,
+        "yearlyEnergyDcKwh": 14429.348,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 6,
+            "yearlyEnergyDcKwh": 3415.8394,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 11013.507,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 25,
+        "yearlyEnergyDcKwh": 14995.316,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 7,
+            "yearlyEnergyDcKwh": 3981.8079,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 11013.507,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 26,
+        "yearlyEnergyDcKwh": 15560.926,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 7,
+            "yearlyEnergyDcKwh": 3981.8079,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 27,
+        "yearlyEnergyDcKwh": 16125.76,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 8,
+            "yearlyEnergyDcKwh": 4546.6416,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 28,
+        "yearlyEnergyDcKwh": 16689.87,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 9,
+            "yearlyEnergyDcKwh": 5110.7515,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 29,
+        "yearlyEnergyDcKwh": 17252.81,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 10,
+            "yearlyEnergyDcKwh": 5673.6924,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 30,
+        "yearlyEnergyDcKwh": 17813.842,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 11,
+            "yearlyEnergyDcKwh": 6234.724,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 31,
+        "yearlyEnergyDcKwh": 18374.473,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 12,
+            "yearlyEnergyDcKwh": 6795.354,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 32,
+        "yearlyEnergyDcKwh": 18933.12,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 13,
+            "yearlyEnergyDcKwh": 7354.001,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 33,
+        "yearlyEnergyDcKwh": 19491.367,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 14,
+            "yearlyEnergyDcKwh": 7912.25,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 34,
+        "yearlyEnergyDcKwh": 20048.22,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 15,
+            "yearlyEnergyDcKwh": 8469.103,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 35,
+        "yearlyEnergyDcKwh": 20604.92,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 16,
+            "yearlyEnergyDcKwh": 9025.801,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 36,
+        "yearlyEnergyDcKwh": 21158.979,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 17,
+            "yearlyEnergyDcKwh": 9579.859,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 11579.116,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 37,
+        "yearlyEnergyDcKwh": 21711.207,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 17,
+            "yearlyEnergyDcKwh": 9579.859,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 38,
+        "yearlyEnergyDcKwh": 22262.133,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 18,
+            "yearlyEnergyDcKwh": 10130.785,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 39,
+        "yearlyEnergyDcKwh": 22812.383,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 19,
+            "yearlyEnergyDcKwh": 10681.036,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 40,
+        "yearlyEnergyDcKwh": 23360.945,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 11229.598,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 41,
+        "yearlyEnergyDcKwh": 23908.54,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 21,
+            "yearlyEnergyDcKwh": 11777.19,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 42,
+        "yearlyEnergyDcKwh": 24456.092,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 22,
+            "yearlyEnergyDcKwh": 12324.744,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 43,
+        "yearlyEnergyDcKwh": 25002.563,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 23,
+            "yearlyEnergyDcKwh": 12871.215,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 44,
+        "yearlyEnergyDcKwh": 25543.531,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 24,
+            "yearlyEnergyDcKwh": 13412.185,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 45,
+        "yearlyEnergyDcKwh": 26083.877,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 25,
+            "yearlyEnergyDcKwh": 13952.53,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 46,
+        "yearlyEnergyDcKwh": 26622.295,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 26,
+            "yearlyEnergyDcKwh": 14490.948,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 47,
+        "yearlyEnergyDcKwh": 27160.654,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 27,
+            "yearlyEnergyDcKwh": 15029.307,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 20,
+            "yearlyEnergyDcKwh": 12131.346,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 48,
+        "yearlyEnergyDcKwh": 27696.479,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 27,
+            "yearlyEnergyDcKwh": 15029.307,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 21,
+            "yearlyEnergyDcKwh": 12667.171,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 49,
+        "yearlyEnergyDcKwh": 28230.549,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 28,
+            "yearlyEnergyDcKwh": 15563.376,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 21,
+            "yearlyEnergyDcKwh": 12667.171,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 50,
+        "yearlyEnergyDcKwh": 28765.97,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 29,
+            "yearlyEnergyDcKwh": 16098.799,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 21,
+            "yearlyEnergyDcKwh": 12667.171,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 51,
+        "yearlyEnergyDcKwh": 29299.172,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 30,
+            "yearlyEnergyDcKwh": 16632,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 21,
+            "yearlyEnergyDcKwh": 12667.171,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 52,
+        "yearlyEnergyDcKwh": 29831.205,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 31,
+            "yearlyEnergyDcKwh": 17164.031,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 21,
+            "yearlyEnergyDcKwh": 12667.171,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 53,
+        "yearlyEnergyDcKwh": 30353.676,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 32,
+            "yearlyEnergyDcKwh": 17686.502,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 21,
+            "yearlyEnergyDcKwh": 12667.171,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 54,
+        "yearlyEnergyDcKwh": 30874.445,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 33,
+            "yearlyEnergyDcKwh": 18207.271,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 21,
+            "yearlyEnergyDcKwh": 12667.171,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 55,
+        "yearlyEnergyDcKwh": 31395.107,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 33,
+            "yearlyEnergyDcKwh": 18207.271,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 22,
+            "yearlyEnergyDcKwh": 13187.833,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 56,
+        "yearlyEnergyDcKwh": 31898.514,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 34,
+            "yearlyEnergyDcKwh": 18710.68,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 22,
+            "yearlyEnergyDcKwh": 13187.833,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 57,
+        "yearlyEnergyDcKwh": 32385.924,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 35,
+            "yearlyEnergyDcKwh": 19198.088,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 22,
+            "yearlyEnergyDcKwh": 13187.833,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 58,
+        "yearlyEnergyDcKwh": 32867.26,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 36,
+            "yearlyEnergyDcKwh": 19679.426,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 22,
+            "yearlyEnergyDcKwh": 13187.833,
+            "segmentIndex": 1
+          }
+        ]
+      },
+      {
+        "panelsCount": 59,
+        "yearlyEnergyDcKwh": 33332.074,
+        "roofSegmentSummaries": [
+          {
+            "pitchDegrees": 19.493237,
+            "azimuthDegrees": 85.982414,
+            "panelsCount": 37,
+            "yearlyEnergyDcKwh": 20144.24,
+            "segmentIndex": 0
+          },
+          {
+            "pitchDegrees": 16.91588,
+            "azimuthDegrees": 270.01788,
+            "panelsCount": 22,
+            "yearlyEnergyDcKwh": 13187.833,
+            "segmentIndex": 1
+          }
+        ]
+      }
+    ],
+    "financialAnalyses": [
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "panelConfigIndex": -1
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "25"
+        },
+        "panelConfigIndex": -1
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "panelConfigIndex": 0,
+        "financialDetails": {
+          "initialAcKwhPerYear": 2092.3896,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "5849"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "2308"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "8308"
+          },
+          "solarPercentage": 81.89333,
+          "percentageExportedToGrid": 46.986736
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "426",
+            "nanos": 99090576
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-325"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-6062"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-4352",
+              "nanos": -348144531
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-6062"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-4352",
+              "nanos": -348144531
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "7695",
+            "nanos": 600097656
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "5387"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "2308",
+            "nanos": 680175781
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "101"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "2460"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-3716",
+              "nanos": -808105469
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "2460"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-3716",
+              "nanos": -808105469
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "426",
+            "nanos": 99090576
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-325"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-6062"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-4352",
+              "nanos": -348144531
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-6062"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-4352",
+              "nanos": -348144531
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "35"
+        },
+        "panelConfigIndex": 2,
+        "financialDetails": {
+          "initialAcKwhPerYear": 3133.0972,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "6377"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "3019"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "9811"
+          },
+          "solarPercentage": 96.34148,
+          "percentageExportedToGrid": 63.00511
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "557",
+            "nanos": 257629395
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-412"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-7711"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-5537",
+              "nanos": -947265625
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-7711"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-5537",
+              "nanos": -947265625
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "10064",
+            "nanos": 400390625
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "7046"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "3019",
+            "nanos": 320312500
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "145"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "3434"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-4706",
+              "nanos": -779296875
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "3434"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-4706",
+              "nanos": -779296875
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "557",
+            "nanos": 257629395
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-412"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-7711"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-5537",
+              "nanos": -947265625
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-7711"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-5537",
+              "nanos": -947265625
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "40"
+        },
+        "panelConfigIndex": 3,
+        "financialDetails": {
+          "initialAcKwhPerYear": 3654.9338,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "7008"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "3374"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "11313"
+          },
+          "solarPercentage": 92.56745,
+          "percentageExportedToGrid": 58.621002
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "622",
+            "nanos": 836853027
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-440"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-8151"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-5870",
+              "nanos": -210449219
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-8151"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-5870",
+              "nanos": -210449219
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "11248",
+            "nanos": 799804688
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "7875"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "3374",
+            "nanos": 640136719
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "183"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "4306"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-4941",
+              "nanos": -229003906
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "4306"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-4941",
+              "nanos": -229003906
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "622",
+            "nanos": 836853027
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-440"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-8151"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-5870",
+              "nanos": -210449219
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-8151"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-5870",
+              "nanos": -210449219
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "45"
+        },
+        "panelConfigIndex": 4,
+        "financialDetails": {
+          "initialAcKwhPerYear": 4173.9136,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "7654"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "3729"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "12815"
+          },
+          "solarPercentage": 89.85646,
+          "percentageExportedToGrid": 55.55901
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "688",
+            "nanos": 416198730
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-469"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-8606"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-6212",
+              "nanos": -959960938
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-8606"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-6212",
+              "nanos": -959960938
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "12433",
+            "nanos": 200195313
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "8704"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "3729",
+            "nanos": 960205078
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "220"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "5162"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-5186",
+              "nanos": -163574219
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "5162"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-5186",
+              "nanos": -163574219
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "688",
+            "nanos": 416137695
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-469"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-8606"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-6212",
+              "nanos": -958984375
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-8606"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-6212",
+              "nanos": -958984375
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "panelConfigIndex": 6,
+        "financialDetails": {
+          "initialAcKwhPerYear": 5211.585,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "8244"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "4440"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "14317"
+          },
+          "solarPercentage": 97.55603,
+          "percentageExportedToGrid": 64.44605
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "819",
+            "nanos": 574707031
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-558"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-10317"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-7440",
+              "nanos": -729980469
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-10317"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-7440",
+              "nanos": -729980469
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "14802"
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "10362"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "4440",
+            "nanos": 600097656
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "261"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "6074"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-6218",
+              "nanos": -306152344
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "6074"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-6218",
+              "nanos": -306152344
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "819",
+            "nanos": 574707031
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-558"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-10317"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-7440",
+              "nanos": -729980469
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-10317"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-7440",
+              "nanos": -729980469
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "60"
+        },
+        "panelConfigIndex": 8,
+        "financialDetails": {
+          "initialAcKwhPerYear": 6247.2456,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "9498"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "5151"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "17322"
+          },
+          "solarPercentage": 92.75569,
+          "percentageExportedToGrid": 58.83633
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "950",
+            "nanos": 733276367
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-615"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-11191"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-8101",
+              "nanos": -26855469
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-11191"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-8101",
+              "nanos": -26855469
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "17170",
+            "nanos": 800781250
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "12020"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "5151",
+            "nanos": 240722656
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "336"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "7824"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-6682",
+              "nanos": -976562500
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "7824"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-6682",
+              "nanos": -976562500
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "950",
+            "nanos": 733215332
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-615"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-11191"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-8101",
+              "nanos": -26855469
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-11191"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-8101",
+              "nanos": -26855469
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "70"
+        },
+        "panelConfigIndex": 11,
+        "financialDetails": {
+          "initialAcKwhPerYear": 7797.4004,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "10759"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "6217"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "20326"
+          },
+          "solarPercentage": 95.516,
+          "percentageExportedToGrid": 62.034107
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "1147",
+            "nanos": 470947266
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-734"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-13381"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-9687",
+              "nanos": -939453125
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-13381"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-9687",
+              "nanos": -939453125
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "20724"
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "14507"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "6217",
+            "nanos": 200195313
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "413"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "9568"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-7976",
+              "nanos": -448730469
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "9568"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-7976",
+              "nanos": -448730469
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "1147",
+            "nanos": 470947266
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-734"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-13381"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-9687",
+              "nanos": -939453125
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-13381"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-9687",
+              "nanos": -939453125
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "80"
+        },
+        "panelConfigIndex": 14,
+        "financialDetails": {
+          "initialAcKwhPerYear": 9343.943,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "12093"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "7283"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "23331"
+          },
+          "solarPercentage": 96.74193,
+          "percentageExportedToGrid": 63.47859
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "1344",
+            "nanos": 208740234
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-856"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-15646"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-11324",
+              "nanos": -812500000
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-15646"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-11324",
+              "nanos": -812500000
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "24277",
+            "nanos": 199218750
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "16995"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "7283",
+            "nanos": 160156250
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "488"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "11239"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-9319",
+              "nanos": -880859375
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "11239"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-9319",
+              "nanos": -880859375
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "1344",
+            "nanos": 208740234
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-856"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-15646"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-11324",
+              "nanos": -812500000
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-15646"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-11324",
+              "nanos": -812500000
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "90"
+        },
+        "panelConfigIndex": 17,
+        "financialDetails": {
+          "initialAcKwhPerYear": 10798.381,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "13425"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "8349"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "26336"
+          },
+          "solarPercentage": 96.7706,
+          "percentageExportedToGrid": 63.512547
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "1540",
+            "nanos": 946411133
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-979"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-17907"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-12959",
+              "nanos": -356445313
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-17907"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-12959",
+              "nanos": -356445313
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "27830",
+            "nanos": 398437500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "19482"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "8349",
+            "nanos": 120117188
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "562"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "12912"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-10660",
+              "nanos": -986328125
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "12912"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-10660",
+              "nanos": -986328125
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "1540",
+            "nanos": 946289063
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-979"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-17907"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-12959",
+              "nanos": -354492188
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-17907"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-12959",
+              "nanos": -354492188
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "100"
+        },
+        "panelConfigIndex": 20,
+        "financialDetails": {
+          "initialAcKwhPerYear": 12241.969,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "14707"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "9415"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "29340"
+          },
+          "solarPercentage": 96.782196,
+          "percentageExportedToGrid": 63.5263
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "1737",
+            "nanos": 684326172
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1099"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-20121"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-14561",
+              "nanos": -867187500
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-20121"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-14561",
+              "nanos": -867187500
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "31383",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "21969"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "9415",
+            "nanos": 81054688
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "638"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "14633"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-11970",
+              "nanos": -55664063
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "14633"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-11970",
+              "nanos": -55664063
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "1737",
+            "nanos": 684326172
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1099"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-20121"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-14561",
+              "nanos": -867187500
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-20121"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-14561",
+              "nanos": -867187500
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "125"
+        },
+        "defaultBill": true,
+        "panelConfigIndex": 28,
+        "financialDetails": {
+          "initialAcKwhPerYear": 16063.001,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "17772"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "12257"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "36852"
+          },
+          "solarPercentage": 97.73708,
+          "percentageExportedToGrid": 64.662125
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "2262",
+            "nanos": 318359375
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1425"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-26167"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-18929",
+              "nanos": -556640625
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-26167"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-18929",
+              "nanos": -556640625
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "40858",
+            "nanos": 800781250
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "28602"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "12257",
+            "nanos": 640625000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "837"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "19080"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-15555",
+              "nanos": -238281250
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "19080"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-15555",
+              "nanos": -238281250
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "2262",
+            "nanos": 318359375
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1425"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-26167"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-18929",
+              "nanos": -556640625
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-26167"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-18929",
+              "nanos": -556640625
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "150"
+        },
+        "panelConfigIndex": 36,
+        "financialDetails": {
+          "initialAcKwhPerYear": 19819.604,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "20810"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "15100"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "44363"
+          },
+          "solarPercentage": 97.98919,
+          "percentageExportedToGrid": 64.96352
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "2786",
+            "nanos": 952392578
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1751"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-32186"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-23282",
+              "nanos": -625000000
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-32186"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-23282",
+              "nanos": -625000000
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "50334"
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "35234"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "15100",
+            "nanos": 201171875
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "1036"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "23553"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-19125",
+              "nanos": -796875000
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "23553"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-19125",
+              "nanos": -796875000
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "2786",
+            "nanos": 952392578
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1751"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-32186"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-23282",
+              "nanos": -625000000
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-32186"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-23282",
+              "nanos": -625000000
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "175"
+        },
+        "panelConfigIndex": 45,
+        "financialDetails": {
+          "initialAcKwhPerYear": 23951.012,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "23794"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "18298"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "51874"
+          },
+          "solarPercentage": 99.72792,
+          "percentageExportedToGrid": 67.05933
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "3377",
+            "nanos": 165771484
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2138"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-39463"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-28521",
+              "nanos": -281250000
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-39463"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-28521",
+              "nanos": -281250000
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "60993",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "42696"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "18298",
+            "nanos": 82031250
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "1239"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "28081"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-23484",
+              "nanos": -136718750
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "28081"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-23484",
+              "nanos": -136718750
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "3377",
+            "nanos": 165771484
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2138"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-39463"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-28521",
+              "nanos": -281250000
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-39463"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-28521",
+              "nanos": -281250000
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "200"
+        },
+        "panelConfigIndex": 53,
+        "financialDetails": {
+          "initialAcKwhPerYear": 27476.465,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "26769"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "21140"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "59386"
+          },
+          "solarPercentage": 98.80374,
+          "percentageExportedToGrid": 65.94161
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "3901",
+            "nanos": 799804688
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2464"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-45418"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-32833",
+              "nanos": -832031250
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-45418"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-32833",
+              "nanos": -832031250
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "70468",
+            "nanos": 796875000
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "49329"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "21140",
+            "nanos": 640625000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "1438"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "32618"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-27014",
+              "nanos": -166015625
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "32618"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-27014",
+              "nanos": -166015625
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "3901",
+            "nanos": 799804688
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2464"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-45418"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-32833",
+              "nanos": -832031250
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-45418"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-32833",
+              "nanos": -832031250
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "225"
+        },
+        "panelConfigIndex": 55,
+        "financialDetails": {
+          "initialAcKwhPerYear": 28279.184,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "30213"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "21851"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "66897"
+          },
+          "solarPercentage": 89.49734,
+          "percentageExportedToGrid": 55.15885
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2431"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-43975"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-31931",
+              "nanos": -480468750
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-43975"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-31931",
+              "nanos": -480468750
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "72837",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "50987"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "21851",
+            "nanos": 281250000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "1602"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "36684"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-25916",
+              "nanos": -193359375
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "36684"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-25916",
+              "nanos": -193359375
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2431"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-43975"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-31931",
+              "nanos": -480468750
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-43975"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-31931",
+              "nanos": -480468750
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "250"
+        },
+        "panelConfigIndex": 55,
+        "financialDetails": {
+          "initialAcKwhPerYear": 28279.184,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "34801"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "21851"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "74408"
+          },
+          "solarPercentage": 79.902885,
+          "percentageExportedToGrid": 44.94237
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2317"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-41051"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-29956",
+              "nanos": -355468750
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-41051"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-29956",
+              "nanos": -355468750
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "72837",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "50987"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "21851",
+            "nanos": 281250000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "1716"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "39608"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-23941",
+              "nanos": -70312500
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "39608"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-23941",
+              "nanos": -70312500
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2317"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-41051"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-29956",
+              "nanos": -355468750
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-41051"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-29956",
+              "nanos": -355468750
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "300"
+        },
+        "panelConfigIndex": 55,
+        "financialDetails": {
+          "initialAcKwhPerYear": 28279.184,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "45992"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "21851"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "89431"
+          },
+          "solarPercentage": 65.80418,
+          "percentageExportedToGrid": 31.587442
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2168"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-37219"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-27368",
+              "nanos": -199218750
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-37219"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-27368",
+              "nanos": -199218750
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "72837",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "50987"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "21851",
+            "nanos": 281250000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "1865"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "43440"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-21352",
+              "nanos": -914062500
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "43440"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-21352",
+              "nanos": -914062500
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2168"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-37219"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-27368",
+              "nanos": -199218750
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-37219"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-27368",
+              "nanos": -199218750
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "350"
+        },
+        "panelConfigIndex": 55,
+        "financialDetails": {
+          "initialAcKwhPerYear": 28279.184,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "58655"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "21851"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "104454"
+          },
+          "solarPercentage": 55.93968,
+          "percentageExportedToGrid": 23.416534
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2077"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-34859"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-25774",
+              "nanos": -705078125
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-34859"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-25774",
+              "nanos": -705078125
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "72837",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "50987"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "21851",
+            "nanos": 281250000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "1956"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "45800"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-19759",
+              "nanos": -416015625
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "45800"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-19759",
+              "nanos": -416015625
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2077"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-34859"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-25774",
+              "nanos": -705078125
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-34859"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-25774",
+              "nanos": -705078125
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "400"
+        },
+        "panelConfigIndex": 55,
+        "financialDetails": {
+          "initialAcKwhPerYear": 28279.184,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "72108"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "21851"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "119477"
+          },
+          "solarPercentage": 48.645607,
+          "percentageExportedToGrid": 17.995897
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2016"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-33290"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-24715",
+              "nanos": -144531250
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-33290"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-24715",
+              "nanos": -144531250
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "72837",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "50987"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "21851",
+            "nanos": 281250000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "2017"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "47369"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-18699",
+              "nanos": -861328125
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "47369"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-18699",
+              "nanos": -861328125
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-2016"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-33290"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-24715",
+              "nanos": -144531250
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-33290"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-24715",
+              "nanos": -144531250
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "450"
+        },
+        "panelConfigIndex": 55,
+        "financialDetails": {
+          "initialAcKwhPerYear": 28279.184,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "86024"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "21851"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "134500"
+          },
+          "solarPercentage": 43.034885,
+          "percentageExportedToGrid": 14.1856
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1973"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-32183"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-23967",
+              "nanos": -957031250
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-32183"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-23967",
+              "nanos": -957031250
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "72837",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "50987"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "21851",
+            "nanos": 281250000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "2060"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "48476"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-17952",
+              "nanos": -671875000
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "48476"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-17952",
+              "nanos": -671875000
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1973"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-32183"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-23967",
+              "nanos": -957031250
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-32183"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-23967",
+              "nanos": -957031250
+            }
+          }
+        }
+      },
+      {
+        "monthlyBill": {
+          "currencyCode": "USD",
+          "units": "500"
+        },
+        "panelConfigIndex": 55,
+        "financialDetails": {
+          "initialAcKwhPerYear": 28279.184,
+          "remainingLifetimeUtilityBill": {
+            "currencyCode": "USD",
+            "units": "100265"
+          },
+          "federalIncentive": {
+            "currencyCode": "USD",
+            "units": "21851"
+          },
+          "stateIncentive": {
+            "currencyCode": "USD"
+          },
+          "utilityIncentive": {
+            "currencyCode": "USD"
+          },
+          "lifetimeSrecTotal": {
+            "currencyCode": "USD"
+          },
+          "costOfElectricityWithoutSolar": {
+            "currencyCode": "USD",
+            "units": "149522"
+          },
+          "solarPercentage": 38.576897,
+          "percentageExportedToGrid": 11.380903
+        },
+        "leasingSavings": {
+          "leasesAllowed": true,
+          "leasesSupported": true,
+          "annualLeasingCost": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1943"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-31402"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-23440",
+              "nanos": -601562500
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-31402"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-23440",
+              "nanos": -601562500
+            }
+          }
+        },
+        "cashPurchaseSavings": {
+          "outOfPocketCost": {
+            "currencyCode": "USD",
+            "units": "72837",
+            "nanos": 601562500
+          },
+          "upfrontCost": {
+            "currencyCode": "USD",
+            "units": "50987"
+          },
+          "rebateValue": {
+            "currencyCode": "USD",
+            "units": "21851",
+            "nanos": 281250000
+          },
+          "paybackYears": -1,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "2090"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "49258"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-17425",
+              "nanos": -318359375
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "49258"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-17425",
+              "nanos": -318359375
+            }
+          }
+        },
+        "financedPurchaseSavings": {
+          "annualLoanPayment": {
+            "currencyCode": "USD",
+            "units": "4032",
+            "nanos": 958496094
+          },
+          "rebateValue": {
+            "currencyCode": "USD"
+          },
+          "loanInterestRate": 0.05,
+          "savings": {
+            "savingsYear1": {
+              "currencyCode": "USD",
+              "units": "-1943"
+            },
+            "savingsYear20": {
+              "currencyCode": "USD",
+              "units": "-31402"
+            },
+            "presentValueOfSavingsYear20": {
+              "currencyCode": "USD",
+              "units": "-23440",
+              "nanos": -601562500
+            },
+            "savingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-31402"
+            },
+            "presentValueOfSavingsLifetime": {
+              "currencyCode": "USD",
+              "units": "-23440",
+              "nanos": -601562500
+            }
+          }
+        }
+      }
+    ],
+    "panelCapacityWatts": 400,
+    "panelHeightMeters": 1.879,
+    "panelWidthMeters": 1.045,
+    "panelLifetimeYears": 20,
+    "buildingStats": {
+      "areaMeters2": 148.82565,
+      "sunshineQuantiles": [
+        418.8205,
+        1233.8937,
+        1333.4369,
+        1360.5708,
+        1389.4272,
+        1407.23,
+        1422.6952,
+        1515.5616,
+        1525.7367,
+        1531.8082,
+        1657.1656
+      ],
+      "groundAreaMeters2": 139.41
+    },
+    "solarPanels": [
+      {
+        "center": {
+          "latitude": 33.958560399999996,
+          "longitude": -83.3673388
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 617.4585,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585435,
+          "longitude": -83.3673384
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 617.0625,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585265,
+          "longitude": -83.36733790000001
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 616.34534,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585096,
+          "longitude": -83.3673374
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 615.38885,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9584927,
+          "longitude": -83.367336999999992
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 614.16565,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9584925,
+          "longitude": -83.36734779999999
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 612.49445,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.958492299999996,
+          "longitude": -83.3673586
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 615.0773,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.958526299999996,
+          "longitude": -83.3673487
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 611.71094,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585094,
+          "longitude": -83.3673482
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 611.69055,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.958543299999995,
+          "longitude": -83.367349199999992
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 611.3906,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585602,
+          "longitude": -83.3673496
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 611.0858,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585092,
+          "longitude": -83.3673591
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 609.6251,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.95856,
+          "longitude": -83.36736040000001
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 609.6138,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585769,
+          "longitude": -83.3673609
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 609.19415,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585261,
+          "longitude": -83.367359499999992
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 608.32623,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585771,
+          "longitude": -83.3673501
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 608.1975,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585431,
+          "longitude": -83.36736
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 607.897,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585773,
+          "longitude": -83.3673393
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 606.78424,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585441,
+          "longitude": -83.3673249
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 572.13025,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585609,
+          "longitude": -83.3673268
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 571.89276,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585272,
+          "longitude": -83.367323
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 570.291,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585617,
+          "longitude": -83.3673161
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 567.3245,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585449,
+          "longitude": -83.36731429999999
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 567.28204,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585103,
+          "longitude": -83.3673211
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 566.9187,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958493499999996,
+          "longitude": -83.3673192
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 565.9686,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585767,
+          "longitude": -83.367371699999993
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 565.60956,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.958528,
+          "longitude": -83.3673124
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 564.83386,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585626,
+          "longitude": -83.3673055
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 564.10986,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585457,
+          "longitude": -83.3673036
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 562.9408,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585112,
+          "longitude": -83.3673105
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 561.0318,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958528799999996,
+          "longitude": -83.367301799999993
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 560.6298,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958563399999996,
+          "longitude": -83.3672949
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 558.647,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9584943,
+          "longitude": -83.367308600000015
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 558.24884,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958512,
+          "longitude": -83.367299899999992
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 556.8526,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585465,
+          "longitude": -83.367292999999989
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 556.6986,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958578599999996,
+          "longitude": -83.367318
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 554.0587,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958559799999996,
+          "longitude": -83.3673713
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 552.2297,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585297,
+          "longitude": -83.3672911
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 550.92535,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9584951,
+          "longitude": -83.367297999999991
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 550.2506,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585642,
+          "longitude": -83.3672843
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 548.5615,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585128,
+          "longitude": -83.3672893
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 547.5932,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585794,
+          "longitude": -83.3673074
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 547.5535,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585474,
+          "longitude": -83.3672824
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 546.4703,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585305,
+          "longitude": -83.367280499999993
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 540.97003,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958495899999996,
+          "longitude": -83.3672874
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 540.3456,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958565,
+          "longitude": -83.3672737
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 538.41754,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958513599999996,
+          "longitude": -83.367278599999992
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 538.3584,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585428,
+          "longitude": -83.3673708
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 535.82513,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9584968,
+          "longitude": -83.3672768
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 534.06946,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9584799,
+          "longitude": -83.3672749
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 535.42285,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585803,
+          "longitude": -83.367296799999991
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 533.20135,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958548199999996,
+          "longitude": -83.3672718
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 532.0317,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958581099999996,
+          "longitude": -83.3672862
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 522.4711,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585313,
+          "longitude": -83.3672699
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 520.76953,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585259,
+          "longitude": -83.36737029999999
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 520.6618,
+        "segmentIndex": 1
+      },
+      {
+        "center": {
+          "latitude": 33.9585145,
+          "longitude": -83.367268
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 503.4077,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9584976,
+          "longitude": -83.3672661
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 487.40866,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.9585819,
+          "longitude": -83.3672756
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 481.33743,
+        "segmentIndex": 0
+      },
+      {
+        "center": {
+          "latitude": 33.958480699999996,
+          "longitude": -83.3672642
+        },
+        "orientation": "LANDSCAPE",
+        "yearlyEnergyDcKwh": 464.81503,
+        "segmentIndex": 0
+      }
+    ]
+  },
+  "boundingBox": {
+    "sw": {
+      "latitude": 33.958463699999996,
+      "longitude": -83.367376499999992
+    },
+    "ne": {
+      "latitude": 33.9585939,
+      "longitude": -83.3672572
+    }
+  },
+  "imageryQuality": "HIGH",
+  "imageryProcessedDate": {
+    "year": 2024,
+    "month": 4,
+    "day": 18
+  }
+}
